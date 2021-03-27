@@ -6,16 +6,6 @@ soong_namespace {
 }
 
 android_app_import {
-	name: "FaceLock",
-	owner: "sony",
-	apk: "proprietary/app/FaceLock/FaceLock.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-}
-
-android_app_import {
 	name: "WfdService",
 	owner: "sony",
 	apk: "proprietary/priv-app/WfdService/WfdService.apk",
