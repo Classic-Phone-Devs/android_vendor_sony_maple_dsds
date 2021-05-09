@@ -197,7 +197,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/maple_dsds/proprietary/product/framework/uimlpalibrary.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/uimlpalibrary.jar \
     vendor/sony/maple_dsds/proprietary/product/framework/vendor.qti.ims.callinfo-V1.0-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/vendor.qti.ims.callinfo-V1.0-java.jar \
     vendor/sony/maple_dsds/proprietary/lib/com.qualcomm.qti.ant@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/com.qualcomm.qti.ant@1.0.so \
-    vendor/sony/maple_dsds/proprietary/lib/com.qualcomm.qti.bluetooth_audio@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/com.qualcomm.qti.bluetooth_audio@1.0.so \
     vendor/sony/maple_dsds/proprietary/product/lib/com.qualcomm.qti.imscmservice@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/sony/maple_dsds/proprietary/product/lib/com.qualcomm.qti.imscmservice@2.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/com.qualcomm.qti.imscmservice@2.0.so \
     vendor/sony/maple_dsds/proprietary/product/lib/com.qualcomm.qti.imscmservice@2.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib/com.qualcomm.qti.imscmservice@2.1.so \
@@ -309,7 +308,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/maple_dsds/proprietary/lib/vendor.somc.hardware.security.secd@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.somc.hardware.security.secd@1.0.so \
     vendor/sony/maple_dsds/proprietary/lib64/com.fingerprints.extension@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/com.fingerprints.extension@1.0.so \
     vendor/sony/maple_dsds/proprietary/lib64/com.qualcomm.qti.ant@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/com.qualcomm.qti.ant@1.0.so \
-    vendor/sony/maple_dsds/proprietary/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so \
     vendor/sony/maple_dsds/proprietary/product/lib64/com.qualcomm.qti.imscmservice@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/sony/maple_dsds/proprietary/product/lib64/com.qualcomm.qti.imscmservice@2.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/com.qualcomm.qti.imscmservice@2.0.so \
     vendor/sony/maple_dsds/proprietary/product/lib64/com.qualcomm.qti.imscmservice@2.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/com.qualcomm.qti.imscmservice@2.1.so \
@@ -466,20 +464,20 @@ PRODUCT_COPY_FILES += \
     vendor/sony/maple_dsds/proprietary/vendor/sony/touch/images/splash.png:$(TARGET_COPY_OUT_VENDOR)/sony/touch/images/splash.png
 
 PRODUCT_PACKAGES += \
+    Lifelog-googlePlayLiveRelease-4.0.A.0.14-8388622 \
+    SomcMovieCreatorRmm-release \
+    SomcSketch-Live-8.3.B.0.13 \
+    com.sonymobile.support \
+    SemcMusic \
+    SemcPhotoEditor \
     WfdService \
     QtiTelephonyService \
     datastatusnotification \
     embms \
     GoogleCamera \
-    Lifelog-googlePlayLiveRelease-4.0.A.0.14-8388622 \
-    SomcMovieCreatorRmm-release \
-    SomcSketch-Live-8.3.B.0.13 \
-    com.sonymobile.support \
     uceShimService \
     ims \
     qcrilmsgtunnel \
-    SemcMusic \
-    SemcPhotoEditor \
     dpmserviceapp \
     WfdCommon \
     com.fingerprints.extension \
@@ -870,8 +868,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/maple_dsds/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
     vendor/sony/maple_dsds/proprietary/vendor/etc/listen_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/listen_platform_info.xml \
     vendor/sony/maple_dsds/proprietary/vendor/etc/lowi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/lowi.conf \
-    vendor/sony/maple_dsds/proprietary/vendor/etc/media_codecs_performance.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance.xml \
-    vendor/sony/maple_dsds/proprietary/vendor/etc/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_V1_0.xml \
     vendor/sony/maple_dsds/proprietary/vendor/etc/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml \
     vendor/sony/maple_dsds/proprietary/vendor/etc/mixer_paths_tasha.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_tasha.xml \
     vendor/sony/maple_dsds/proprietary/vendor/etc/perf/commonresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/commonresourceconfigs.xml \
@@ -890,9 +886,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/maple_dsds/proprietary/vendor/etc/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml \
     vendor/sony/maple_dsds/proprietary/vendor/etc/qdcm_calib_data_3.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_3.xml \
     vendor/sony/maple_dsds/proprietary/vendor/etc/qdcm_calib_data_6.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_6.xml \
-    vendor/sony/maple_dsds/proprietary/vendor/etc/r_submix_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/r_submix_audio_policy_configuration.xml \
     vendor/sony/maple_dsds/proprietary/vendor/etc/sap.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sap.conf \
-    vendor/sony/maple_dsds/proprietary/vendor/etc/sec_config:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config \
     vendor/sony/maple_dsds/proprietary/vendor/etc/seccomp_policy/mediacodec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy \
     vendor/sony/maple_dsds/proprietary/vendor/etc/seccomp_policy/mediaextractor.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediaextractor.policy \
     vendor/sony/maple_dsds/proprietary/vendor/etc/security/idd_config.pem:$(TARGET_COPY_OUT_VENDOR)/etc/security/idd_config.pem \
@@ -1022,7 +1016,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/maple_dsds/proprietary/vendor/lib/hw/audio.primary.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.msm8998.so \
     vendor/sony/maple_dsds/proprietary/vendor/lib/hw/camera.maple_dsds.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.maple_dsds.so \
     vendor/sony/maple_dsds/proprietary/vendor/lib/hw/com.qualcomm.qti.ant@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/com.qualcomm.qti.ant@1.0-impl.so \
-    vendor/sony/maple_dsds/proprietary/vendor/lib/hw/com.qualcomm.qti.bluetooth_audio@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/com.qualcomm.qti.bluetooth_audio@1.0-impl.so \
     vendor/sony/maple_dsds/proprietary/vendor/lib/hw/gatekeeper.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.msm8998.so \
     vendor/sony/maple_dsds/proprietary/vendor/lib/hw/gralloc.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.default.so \
     vendor/sony/maple_dsds/proprietary/vendor/lib/hw/gralloc.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.msm8998.so \
@@ -1404,7 +1397,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/maple_dsds/proprietary/vendor/lib64/hw/android.hardware.gnss@2.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss@2.0-impl-qti.so \
     vendor/sony/maple_dsds/proprietary/vendor/lib64/hw/audio.primary.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.msm8998.so \
     vendor/sony/maple_dsds/proprietary/vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so \
-    vendor/sony/maple_dsds/proprietary/vendor/lib64/hw/com.qualcomm.qti.bluetooth_audio@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/com.qualcomm.qti.bluetooth_audio@1.0-impl.so \
     vendor/sony/maple_dsds/proprietary/vendor/lib64/hw/gatekeeper.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.msm8998.so \
     vendor/sony/maple_dsds/proprietary/vendor/lib64/hw/gralloc.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gralloc.default.so \
     vendor/sony/maple_dsds/proprietary/vendor/lib64/hw/gralloc.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gralloc.msm8998.so \
